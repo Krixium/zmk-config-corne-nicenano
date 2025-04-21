@@ -12,6 +12,10 @@
         keymap {
                 compatible = "zmk,keymap";
 
+                &mt {
+                    flavor = "balanced";
+                };
+
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
